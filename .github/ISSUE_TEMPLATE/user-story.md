@@ -7,8 +7,8 @@ assignees: ''
 
 ---
 
-As a user, social media links are available for me to follow the club online. **(SHOULD HAVE)**
+As a user, the website is responsive across different devices, mobile, tablet and desktop, so I can access the website on the go or at home. **(MUST HAVE)**
 
 **Acceptance Criteria**
 
-**AC1** - Social media links are available across all pages, making it easy for a user to follow the club on a social platform of choice.
+**AC1** - The website is viewable and responsive across different devices.
