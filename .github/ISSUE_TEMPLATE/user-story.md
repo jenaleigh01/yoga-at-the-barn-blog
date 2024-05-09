@@ -7,8 +7,8 @@ assignees: ''
 
 ---
 
-As a user, I can like other users' comments, therefore informing other users' that I have enjoyed their comment. **(MUST HAVE)**
+As a user, social media links are available for me to follow the club online. **(SHOULD HAVE)**
 
 **Acceptance Criteria**
 
-**AC1** - When a logged in user, a clickable like button or icon is available on each post to engage with other users' submitted comments.
+**AC1** - Social media links are available across all pages, making it easy for a user to follow the club on a social platform of choice.
