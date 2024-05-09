@@ -7,8 +7,8 @@ assignees: ''
 
 ---
 
-As a user, I would like to be able to log out of my account with confirmation that I am no longer logged in. **(MUST HAVE)**
+As a site admin user , I would like the website to have a simple UI  for fast fulfilment of features, creating a calming, happy environment for users. **(MUST HAVE)**
 
 **Acceptance Criteria**
 
-**AC1** - A notification message is displayed to the user when successfully logging out of their account.
+**AC1** - Website is clean aesthetically, with a simple smooth flow of features for the user.
