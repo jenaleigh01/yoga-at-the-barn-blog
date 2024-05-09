@@ -7,8 +7,9 @@ assignees: ''
 
 ---
 
-As a site admin user , I would like the website to have a simple UI  for fast fulfilment of features, creating a calming, happy environment for users. **(MUST HAVE)**
+As a site admin user, I can add, edit and delete blog posts via the admin panel for the website, to keep users up to date with the latest information. **(MUST HAVE)**
 
 **Acceptance Criteria**
 
-**AC1** - Website is clean aesthetically, with a simple smooth flow of features for the user.
+**AC1** - As a logged in superuser access to the website admin panel is granted.
+**AC2** - From the website admin panel, a superuser can optimize blog posts, allowing to add, edit and delete.
