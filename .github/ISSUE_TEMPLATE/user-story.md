@@ -7,8 +7,8 @@ assignees: ''
 
 ---
 
-As a registered user, I would like returned feedback informing that I have successfully logged in to my account. **(MUST HAVE)**
+As a user, I can easily navigate through the website, making retrieving information a quick, simple and effortless experience. **(MUST HAVE)**
 
 **Acceptance Criteria**
 
-**AC1** - Notification message is shown when a user successfully logs into their account.
+**AC1** - Site navigation is straightforward and retrieving information is uncomplicated.
