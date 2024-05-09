@@ -7,8 +7,8 @@ assignees: ''
 
 ---
 
-As a new site user, I would like the website to have a clear purpose so I can decide if I would like to sign up or not. (MUST HAVE)
+As a new site user, I would like to be able to sign up and register an account. **(MUST HAVE)**
 
 **Acceptance Criteria**
 
-**AC1** - First impressions on the landing page shows a clean and understandable layout to the user.
+**AC1** - A register/sign up feature is available to input my details to make an account.
