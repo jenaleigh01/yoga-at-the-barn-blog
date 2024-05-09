@@ -7,10 +7,8 @@ assignees: ''
 
 ---
 
-As a user, I would like to be able to leave a comment on blog posts to further engage with the topic. 
-**(MUST HAVE)**
+As a user, I can like other users' comments, therefore informing other users' that I have enjoyed their comment. **(MUST HAVE)**
 
 **Acceptance Criteria**
 
-**AC1** - A comment box is available to a logged user.
-**AC2** - Once user's comment is submitted, it is viewable and linked to the corresponding post.
+**AC1** - When a logged in user, a clickable like button or icon is available on each post to engage with other users' submitted comments.
