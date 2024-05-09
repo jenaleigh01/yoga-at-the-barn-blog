@@ -7,8 +7,10 @@ assignees: ''
 
 ---
 
-As a user, I would like to be able to view and read information on my chosen topic. **(MUST HAVE)**
+As a user, I would like to be able to leave a comment on blog posts to further engage with the topic. 
+**(MUST HAVE)**
 
 **Acceptance Criteria**
 
-**AC1** - As a logged in user, blog posts are available to view and read.
+**AC1** - A comment box is available to a logged user.
+**AC2** - Once user's comment is submitted, it is viewable and linked to the corresponding post.
