@@ -7,8 +7,8 @@ assignees: ''
 
 ---
 
-As a user, the website is responsive across different devices, mobile, tablet and desktop, so I can access the website on the go or at home. **(MUST HAVE)**
+As a user, I can edit or delete my posted comments, if I choose to. **(MUST HAVE)**
 
 **Acceptance Criteria**
 
-**AC1** - The website is viewable and responsive across different devices.
+**AC1** - As a logged in user, edit and delete buttons are available on their posted comments allowing for changes if they choose.
