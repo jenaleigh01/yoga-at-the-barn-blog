@@ -7,8 +7,8 @@ assignees: ''
 
 ---
 
-As a user, I would like to receive notification when I have edited or deleted my comments. **(MUST HAVE)**
+As a user, I would like to be able to log out of my account with confirmation that I am no longer logged in. **(MUST HAVE)**
 
 **Acceptance Criteria**
 
-**AC1** - A notification message is displayed to the user, informing of the action the user has just made regarding their posted comment.
+**AC1** - A notification message is displayed to the user when successfully logging out of their account.
