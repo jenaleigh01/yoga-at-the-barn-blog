@@ -7,8 +7,9 @@ assignees: ''
 
 ---
 
-As a new site user, I would like to be able to sign up and register an account. **(MUST HAVE)**
+As a returning registered user, I can use my username and password to login to my account to gain access to the website's blog features. **(MUST HAVE)**
 
 **Acceptance Criteria**
 
-**AC1** - A register/sign up feature is available to input my details to make an account.
+**AC1** - A sign in feature is available to input my login details.
+**AC2** - Once successfully logged in, blog features are available to me.
