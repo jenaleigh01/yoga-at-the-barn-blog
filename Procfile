@@ -1,1 +1,1 @@
-web: gunicorn yoga_blog.wsgi
+web: gunicorn yoga_at_the_barn_blog.wsgi
