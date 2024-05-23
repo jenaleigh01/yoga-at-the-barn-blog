@@ -1,0 +1,49 @@
+/* Navbar */
+.navbar-light .navbar-brand {
+  font-family: "Bad Script", cursive, sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 30px;
+  text-decoration: underline;
+  text-decoration-color: #f4d1f0;
+}
+
+.navbar-nav .nav-link{
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.navbar-nav .nav-link:hover {
+  font-family: "Reddit Mono", monospace, sans-serif;
+  font-size: 23px;
+  font-weight: 300;
+  text-decoration-color: #f4d1f0;
+  text-decoration-line: underline;
+  
+}
+
+/* Change the color of the active navigation link */
+
+
+
+
+
+/* Footer */
+footer {
+  font-family: "Reddit Mono", monospace, sans-serif;
+  font-weight: bold;
+  color: #000;
+  background-color: #fff;
+  border-top: 3px solid rgb(160, 190, 246); 
+}
+
+.footer a {
+  color: #0d6efd;   
+}
+
+
+  
+      
+  
+  
+

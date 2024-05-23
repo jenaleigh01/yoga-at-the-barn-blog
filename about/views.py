@@ -1,8 +1,12 @@
 from django.shortcuts import render
-from django.http import HttpResponse
+from django.views import generic
 
 # Create your views here.
 
 
 def about_me(request):
-    return HttpResponse("About page")
+    """
+    Renders the About page
+    """
+    return render(request, 'about/about_page.html')
+
