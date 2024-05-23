@@ -1,5 +1,7 @@
 {% load static %}
 
+{% url 'home' as home_url %}
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -33,7 +35,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgb(180, 203, 245);">
         <div class="container-fluid">
-            <a class="navbar-brand text-light" href="">Yoga at the Barn</a>
+            <a class="navbar-brand text-light" href="{% url 'home' %}">Yoga at the Barn</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
                 aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -42,7 +44,7 @@
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
                         <a class="nav-link active text-light {% if request.path == home_url %}active{% endif %}"
-                            aria-current="page" href="#">Home</a>
+                            aria-current="page" href="{% url 'home' %}">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-light" href="">About & Gallery</a>
