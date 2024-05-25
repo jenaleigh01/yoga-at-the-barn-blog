@@ -1,6 +1,8 @@
 {% load static %}
 
 {% url 'home' as home_url %}
+{% url 'about' as about_url %}
+{% url 'blog' as blog_url %}
 {% url 'account_login' as login_url %}
 {% url 'account_signup' as signup_url %}
 {% url 'account_logout' as logout_url %}
@@ -52,10 +54,10 @@
                             aria-current="page" href="{% url 'home' %}">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-light" href="">About & Gallery</a>
+                        <a class="nav-link text-light" href="{% url 'about' %}">About & Gallery</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-light" href="">Blog</a>
+                        <a class="nav-link text-light" href="{% url 'blog' %}">Blog</a>
                     </li>
                     {% if user.is_authenticated %}
                     <li class="nav-item">
@@ -78,6 +80,11 @@
     </nav>
 
     <main class="flex-shrink-0 main-bg">
+        {% if user.is_authenticated %}
+        <p class="text-end m-3"> Welcome, {{ user }} <i class="fa-brands fa-pagelines" style="color: green"></i></p>
+        {% else %}
+        <p class="text-end m-3">You are not logged in</p>
+        {% endif %}
 
         {% block content %}
         <!-- Content Goes here -->
