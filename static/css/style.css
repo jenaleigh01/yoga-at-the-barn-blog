@@ -41,8 +41,9 @@ footer {
   color: #0d6efd;   
 }
 
-
-      
+.image-container {
+  position: relative;
+}    
   
   
 
